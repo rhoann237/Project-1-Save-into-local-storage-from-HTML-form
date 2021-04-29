@@ -42,7 +42,7 @@ function newTweet(e) {
     tweetList.appendChild(li);
 
     // add to local storage
-    addTweetLocalStorage();
+    addTweetLocalStorage(tweet);
 
     // Print the alert
     alert('Tweet Added');
